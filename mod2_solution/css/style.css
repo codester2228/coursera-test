@@ -21,7 +21,7 @@ div>div {
 h1 {
     text-align: center;
  }
-section>h2 {
+section>h2#chicken {
     padding: 2px;
     width:100px;
     float:right;
@@ -29,6 +29,26 @@ section>h2 {
     border-left:1px solid black;
     border-bottom:1px solid black;
     background-color:red;
+    margin:0;
+}
+section>h2#egg {
+    padding: 2px;
+    width:100px;
+    float:right;
+    text-align:center;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+    background-color:yellow;
+    margin:0;
+}
+section>h2#veg {
+    padding: 2px;
+    width:100px;
+    float:right;
+    text-align:center;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+    background-color:green;
     margin:0;
 }
 section>p {
