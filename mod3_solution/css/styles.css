@@ -145,3 +145,9 @@ hr {
 nav li {
 	text-align: center;
 }
+
+nav button{
+	position: absolute;
+	right:0px;
+	top:35px;
+}
